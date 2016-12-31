@@ -3,16 +3,22 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
 .wrapper {
   width: 500px;
   margin: 30px auto;
 }
+
+.app-title {
+  font: bold 25px Lato;
+  color: cornflowerblue;
+  text-align: center;
+}
+
 .puppy-wrapper {
   overflow: hidden;
   padding: {
-    top: 10px;
-    bottom: 10px;
+    top: 20px;
+    bottom: 20px;
   }
   font: 16px Lato;
   border: {
@@ -20,12 +26,16 @@
     bottom: 1px solid silver;
   }
 }
+
 .puppy-portrait {
   height: 100px;
   width: auto;
   float: right;
 }
 
-.puppy-name {
-  font-size: 20px;
+.puppy-description {
+  float: left;
+  .puppy-name {
+    font-size: 20px;
+  }
 }
