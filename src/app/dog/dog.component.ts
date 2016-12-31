@@ -11,5 +11,15 @@ export class DogComponent implements OnInit {
 
   ngOnInit() {
   }
-  dogs:any = ['Mops', 'Buldog', 'Jamnik', 'Husky'];
+  // dogs:any = ['Mops', 'Buldog', 'Jamnik', 'Husky'];
+dogs:any = [
+  {
+    id: 0, name: 'Mops', weight: '8.1 kg', img: 'assets/img/pug.jpg'
+  },
+  {
+    id: 1, name: 'Buldog Amerykański', weight: '68kg', img: 'assets/img/buldogam.jpg'
+  }, 
+  {
+    id: 2, name: 'Owczarek Niemiecki', weight: '45kg', img: 'assets/img/owczarekniemiecki.jpg'
+  }]
 }

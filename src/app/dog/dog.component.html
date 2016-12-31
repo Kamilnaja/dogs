@@ -1,5 +1,10 @@
+<div class="wrapper">
 <ul>
-  <li *ngFor="let dog of dogs">
-    {{dog}}
+  <li *ngFor="let dog of dogs" class="puppy-wrapper">
+    {{ dog.id }}
+    <h2 class="puppy-name">{{ dog.name | uppercase }}</h2>
+    {{ dog.weight}}
+    <img src="{{dog.img}}" alt="" class="puppy-portrait">
   </li>
 </ul>
+</div>

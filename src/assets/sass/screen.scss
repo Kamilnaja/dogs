@@ -1,0 +1,31 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+.wrapper {
+  width: 500px;
+  margin: 30px auto;
+}
+.puppy-wrapper {
+  overflow: hidden;
+  padding: {
+    top: 10px;
+    bottom: 10px;
+  }
+  font: 16px Lato;
+  border: {
+    top: 1px solid silver;
+    bottom: 1px solid silver;
+  }
+}
+.puppy-portrait {
+  height: 100px;
+  width: auto;
+  float: right;
+}
+
+.puppy-name {
+  font-size: 20px;
+}
