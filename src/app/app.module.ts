@@ -5,27 +5,29 @@ import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { DogComponent } from './dog/dog.component';
-import { PuppydetailsComponent } from './puppydetails/puppydetails.component';
-import { MenuComponent } from './menu/menu.component';
 
-const appRoutes: Routes = [
-{  path: 'puppy-details', component: PuppydetailsComponent }];
+import { MenuComponent } from './menu/menu.component';
+import { AboutComponent } from './about/about.component';
+import { ServicesComponent } from './services/services.component';
+import { routes } from './app.router';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     DogComponent,
-    PuppydetailsComponent,
-    MenuComponent
+    MenuComponent,
+    AboutComponent,
+    ServicesComponent
   ],
   imports: [
-    RouterModule.forRoot(appRoutes),
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routes
   ],
-  providers: [DogComponent, PuppydetailsComponent, MenuComponent],
-  bootstrap: [AppComponent, DogComponent, PuppydetailsComponent, MenuComponent]
+  providers: [DogComponent,  MenuComponent],
+  bootstrap: [AppComponent, DogComponent,  MenuComponent]
 })
 export class AppModule { 
 }
