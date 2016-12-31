@@ -4,17 +4,19 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { DogComponent } from './dog/dog.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DogComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [DogComponent],
+  bootstrap: [AppComponent, DogComponent]
 })
 export class AppModule { }
