@@ -1,12 +1,16 @@
 <h3>Zapisz się do naszego newslettera</h3>
-<form action="">
-  <div>
-    <label for="name">Wpisz email</label>
-    <input type="text" id="name" placeholder="marta@gmail.com">
+<form #form="ngForm" (ngSubmit)="submitForm(form.value)">
+  <div class="form-group">
+    <label for="email">Wpisz email</label>
+    <input type="email" name="email" id="email" placeholder="marta@gmail.com" ngModel required>
   </div>
-  <div>
-    <label for="agree-box">Zgadzam się na postanowienia <a>regulaminu</a></label>
-    <input type="checkbox" id="agree-box">
+  <div class="form-group">
+    <label for="name">Wpisz swoje imie</label>
+    <input type="text" name="name" id="name" placeholder="marta" ngModel required>
   </div>
-  <button>Wyślij</button>
+  <div class="form-group">
+    <label for="agree-box">Zgadzam się na postanowienia <a routerLink="rules">regulaminu</a></label>
+    <input type="checkbox" name="submit" id="agree-box" ngModel required>
+  </div>
+  <button class="btn btn-primary">Wyślij</button>
 </form>

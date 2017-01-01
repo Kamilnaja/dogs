@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class FormComponent {
 
   constructor() { }
-
+  submitForm(){
+    console.log("wysłano formularz");
+  }
 
 }

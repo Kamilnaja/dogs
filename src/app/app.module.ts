@@ -11,6 +11,8 @@ import { AboutComponent } from './about/about.component';
 import { routes } from './app.router';
 import { FormComponent } from './form/form.component';
 import { FooterComponent } from './footer/footer.component';
+import { ThankformsubmitComponent } from './thankformsubmit/thankformsubmit.component';
+import { RulesComponent } from './rules/rules.component';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { FooterComponent } from './footer/footer.component';
     MenuComponent,
     AboutComponent,
     FormComponent,
-    FooterComponent
+    FooterComponent,
+    ThankformsubmitComponent,
+    RulesComponent
   ],
   imports: [
     BrowserModule,

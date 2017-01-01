@@ -7,19 +7,13 @@ body {
   font: 16px lato;
 }
 
-/* line 8, ../sass/screen.scss */
-.wrapper {
-  width: 500px;
-  margin: 30px auto;
-}
-
-/* line 13, ../sass/screen.scss */
+/* line 10, ../sass/screen.scss */
 .app-title {
   font: bold 25px Lato;
   color: cornflowerblue;
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
 .puppy-wrapper {
   overflow: hidden;
   padding-top: 20px;
@@ -28,7 +22,7 @@ body {
   border-bottom: 1px solid silver;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 .puppy-portrait {
   height: 100px;
   width: auto;
@@ -40,16 +34,16 @@ body {
   border: 1px solid cornflowerblue;
   padding: 1px;
 }
-/* line 40, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .puppy-portrait:hover {
   transform: rotate(-2deg) scale(1.2);
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 .puppy-description {
   float: left;
 }
-/* line 48, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 .puppy-description .puppy-name {
   font-size: 20px;
 }
