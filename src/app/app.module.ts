@@ -26,8 +26,8 @@ import { routes } from './app.router';
     HttpModule,
     routes
   ],
-  providers: [DogComponent,  MenuComponent],
-  bootstrap: [AppComponent, DogComponent,  MenuComponent]
+  providers: [MenuComponent],
+  bootstrap: [AppComponent, MenuComponent]
 })
 export class AppModule { 
 }

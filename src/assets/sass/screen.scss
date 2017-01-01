@@ -31,6 +31,16 @@
   height: 100px;
   width: auto;
   float: right;
+  margin-right: 20px;
+  transition:  0.3s ease;
+  cursor: pointer;
+  transform: rotate(0deg);
+  border: 1px solid cornflowerblue;
+  padding: 1px;
+  &:hover {
+    transform: rotate(-2deg) scale(1.2);
+
+  }
 }
 
 .puppy-description {

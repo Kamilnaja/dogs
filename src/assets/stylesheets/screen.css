@@ -30,13 +30,23 @@
   height: 100px;
   width: auto;
   float: right;
+  margin-right: 20px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  transform: rotate(0deg);
+  border: 1px solid cornflowerblue;
+  padding: 1px;
+}
+/* line 40, ../sass/screen.scss */
+.puppy-portrait:hover {
+  transform: rotate(-2deg) scale(1.2);
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 .puppy-description {
   float: left;
 }
-/* line 38, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .puppy-description .puppy-name {
   font-size: 20px;
 }
