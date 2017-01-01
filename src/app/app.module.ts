@@ -8,8 +8,9 @@ import { DogComponent } from './dog/dog.component';
 
 import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
-import { ServicesComponent } from './services/services.component';
 import { routes } from './app.router';
+import { FormComponent } from './form/form.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { routes } from './app.router';
     DogComponent,
     MenuComponent,
     AboutComponent,
-    ServicesComponent
+    FormComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +29,7 @@ import { routes } from './app.router';
     routes
   ],
   providers: [MenuComponent],
-  bootstrap: [AppComponent, MenuComponent]
+  bootstrap: [AppComponent, MenuComponent, FooterComponent]
 })
 export class AppModule { 
 }

@@ -2,7 +2,9 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
+body {
+  font: 16px lato;
+}
 .wrapper {
   width: 500px;
   margin: 30px auto;
@@ -11,7 +13,6 @@
 .app-title {
   font: bold 25px Lato;
   color: cornflowerblue;
-  text-align: center;
 }
 
 .puppy-wrapper {
@@ -20,7 +21,6 @@
     top: 20px;
     bottom: 20px;
   }
-  font: 16px Lato;
   border: {
     top: 1px solid silver;
     bottom: 1px solid silver;
