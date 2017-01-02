@@ -1,0 +1,62 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 10, ../sass/screen.scss */
+body {
+  font: 16px lato;
+}
+
+/* line 15, ../sass/screen.scss */
+.app-title {
+  font: bold 25px Lato;
+  color: cornflowerblue;
+}
+
+/* line 20, ../sass/screen.scss */
+.puppy-wrapper {
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+}
+
+/* line 32, ../sass/screen.scss */
+.puppy-portrait {
+  height: 100px;
+  width: auto;
+  float: right;
+  margin-right: 20px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  transform: rotate(0deg);
+  border: 1px solid cornflowerblue;
+  padding: 1px;
+}
+/* line 42, ../sass/screen.scss */
+.puppy-portrait:hover {
+  transform: rotate(-2deg) scale(1.2);
+}
+
+/* line 48, ../sass/screen.scss */
+.puppy-description {
+  float: left;
+}
+/* line 50, ../sass/screen.scss */
+.puppy-description .puppy-name {
+  font-size: 20px;
+}
+
+/* line 54, ../sass/screen.scss */
+.main-footer {
+  background-color: #ffffff;
+  border-top: 1px solid cornflowerblue;
+  padding-top: 10px;
+}
+
+/* line 59, ../sass/screen.scss */
+.main-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
