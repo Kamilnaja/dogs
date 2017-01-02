@@ -1,19 +1,16 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 10, ../sass/screen.scss */
+/* line 6, ../sass/screen.scss */
 body {
   font: 16px lato;
+  margin-top: 20px;
 }
 
-/* line 15, ../sass/screen.scss */
+/* line 12, ../sass/screen.scss */
 .app-title {
-  font: bold 25px Lato;
   color: cornflowerblue;
+  margin-bottom: 20px;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 .puppy-wrapper {
   overflow: hidden;
   padding-top: 20px;
@@ -22,7 +19,7 @@ body {
   border-bottom: 1px solid silver;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 .puppy-portrait {
   height: 100px;
   width: auto;
@@ -34,29 +31,56 @@ body {
   border: 1px solid cornflowerblue;
   padding: 1px;
 }
-/* line 42, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .puppy-portrait:hover {
   transform: rotate(-2deg) scale(1.2);
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 .puppy-description {
   float: left;
 }
-/* line 50, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 .puppy-description .puppy-name {
   font-size: 20px;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .main-footer {
   background-color: #ffffff;
   border-top: 1px solid cornflowerblue;
   padding-top: 10px;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 .main-header {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+/* line 61, ../sass/screen.scss */
+.main-nav {
+  list-style-type: none;
+  font: 700 16px Lato;
+  margin-bottom: 20px;
+  -webkit-padding-start: 0;
+}
+
+/* line 68, ../sass/screen.scss */
+.main-nav li {
+  border: 1px dashed silver;
+  display: inline-block;
+}
+
+/* line 72, ../sass/screen.scss */
+.main-nav li:hover {
+  background-color: silver;
+  color: white;
+}
+
+/* line 76, ../sass/screen.scss */
+.main-nav li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
 }
