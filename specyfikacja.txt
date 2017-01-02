@@ -5,4 +5,5 @@ dodać tytuł całego programu [x]
 po kliknięciu w pupila przekierowuje do widoku szczegółowego - >route
 dodać regulamin []
 zrobić stronę podziękowania
+form wywalić
 ---

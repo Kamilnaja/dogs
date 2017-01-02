@@ -1,9 +1,14 @@
+<div class="container">
   <div class="row">
-    <div *ngFor="let dog of dogs" class="puppy-wrapper col-md-6 offset-md-3">
-      <div class="puppy-description">
-        {{ dog.id }}
-        <h2 class="puppy-name">{{ dog.name | uppercase }}</h2> {{ dog.weight}}
-      </div><!-- puppy descr -->
-      <img src="{{dog.img}}" alt="" class="puppy-portrait img-fluid">
+    <div class="col-md-8 offset-md-2">
+    <h2 class="main-header">Lista naszych pupili</h2>
+      <div *ngFor="let dog of dogs" class="puppy-wrapper">
+        <div class="puppy-description">
+          {{ dog.id }}
+          <h2 class="puppy-name">{{ dog.name | uppercase }}</h2> {{ dog.weight}}
+        </div>
+        <img src="{{dog.img}}" alt="" class="puppy-portrait img-fluid">
+      </div>
     </div>
   </div>
+</div>

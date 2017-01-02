@@ -9,10 +9,10 @@ import { DogComponent } from './dog/dog.component';
 import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
 import { routes } from './app.router';
-import { FormComponent } from './form/form.component';
 import { FooterComponent } from './footer/footer.component';
 import { ThankformsubmitComponent } from './thankformsubmit/thankformsubmit.component';
 import { RulesComponent } from './rules/rules.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
 
 
 @NgModule({
@@ -21,10 +21,10 @@ import { RulesComponent } from './rules/rules.component';
     DogComponent,
     MenuComponent,
     AboutComponent,
-    FormComponent,
     FooterComponent,
     ThankformsubmitComponent,
-    RulesComponent
+    RulesComponent,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule,

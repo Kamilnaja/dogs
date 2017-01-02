@@ -2,6 +2,11 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+//variables 
+$primary-bg-color: #ffffff;
+$primary-txt-color: cornflowerblue;
+$secondary-txt-color: black;
+
 body {
   font: 16px lato;
 }
@@ -9,7 +14,7 @@ body {
 
 .app-title {
   font: bold 25px Lato;
-  color: cornflowerblue;
+  color: $primary-txt-color;
 }
 
 .puppy-wrapper {
@@ -32,7 +37,7 @@ body {
   transition:  0.3s ease;
   cursor: pointer;
   transform: rotate(0deg);
-  border: 1px solid cornflowerblue;
+  border: 1px solid $primary-txt-color;
   padding: 1px;
   &:hover {
     transform: rotate(-2deg) scale(1.2);
@@ -45,4 +50,13 @@ body {
   .puppy-name {
     font-size: 20px;
   }
+}
+.main-footer {
+  background-color: $primary-bg-color;
+  border-top: 1px solid $primary-txt-color;
+  padding-top: 10px;
+}
+.main-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
