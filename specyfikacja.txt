@@ -7,3 +7,5 @@ dodać regulamin [x]
 zrobić stronę podziękowania [x]
 ---
 stopka ma być zawsze na dole
+logo przekierowuje na główną
+dodać obrazek w logo
