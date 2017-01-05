@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ThankformsubmitComponent } from './thankformsubmit/thankformsubmit.component';
 import { RulesComponent } from './rules/rules.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
+import { PuppydetailsComponent } from './puppydetails/puppydetails.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
     FooterComponent,
     ThankformsubmitComponent,
     RulesComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    PuppydetailsComponent
   ],
   imports: [
     BrowserModule,

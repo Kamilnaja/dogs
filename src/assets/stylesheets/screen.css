@@ -1,16 +1,16 @@
-/* line 6, ../sass/screen.scss */
+/* line 4, ../sass/screen.scss */
 body {
   font: 16px lato;
   margin-top: 20px;
 }
 
-/* line 12, ../sass/screen.scss */
+/* line 9, ../sass/screen.scss */
 .app-title {
   color: cornflowerblue;
   margin-bottom: 20px;
 }
 
-/* line 17, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 .puppy-wrapper {
   overflow: hidden;
   padding-top: 20px;
@@ -19,7 +19,7 @@ body {
   border-bottom: 1px solid silver;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 .puppy-portrait {
   height: 100px;
   width: auto;
@@ -31,25 +31,27 @@ body {
   border: 1px solid cornflowerblue;
   padding: 1px;
 }
-/* line 39, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .puppy-portrait:hover {
   transform: rotate(-2deg) scale(1.2);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 .puppy-description {
   float: left;
 }
-/* line 47, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 .puppy-description .puppy-name {
   font-size: 20px;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .main-footer {
   background-color: #ffffff;
   border-top: 1px solid cornflowerblue;
   padding-top: 10px;
+  margin-top: 30px;
 }
 
 /* line 56, ../sass/screen.scss */
@@ -72,15 +74,32 @@ body {
   display: inline-block;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .main-nav li:hover {
   background-color: silver;
   color: white;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .main-nav li a {
   text-decoration: none;
   padding: 10px 15px;
   display: inline-block;
+}
+
+/* line 84, ../sass/screen.scss */
+.newsletter {
+  padding-bottom: 30px;
+  min-height: calc(100vh - 250px);
+}
+
+/* line 90, ../sass/screen.scss */
+main {
+  min-height: calc(100% - 20px);
+}
+
+/* line 94, ../sass/screen.scss */
+body,
+html {
+  min-height: 100%;
 }

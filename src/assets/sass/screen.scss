@@ -1,13 +1,10 @@
-
 $primary-bg-color: #ffffff;
 $primary-txt-color: cornflowerblue;
 $secondary-txt-color: black;
-
 body {
   font: 16px lato;
   margin-top: 20px;
 }
-
 
 .app-title {
   color: $primary-txt-color;
@@ -31,14 +28,14 @@ body {
   width: auto;
   float: right;
   margin-right: 20px;
-  transition:  0.3s ease;
+  transition: 0.3s ease;
   cursor: pointer;
   transform: rotate(0deg);
   border: 1px solid $primary-txt-color;
   padding: 1px;
   &:hover {
     transform: rotate(-2deg) scale(1.2);
-
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -48,11 +45,14 @@ body {
     font-size: 20px;
   }
 }
+
 .main-footer {
   background-color: $primary-bg-color;
   border-top: 1px solid $primary-txt-color;
   padding-top: 10px;
+  margin-top: 30px;
 }
+
 .main-header {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -69,12 +69,29 @@ body {
   border: 1px dashed silver;
   display: inline-block;
 }
+
 .main-nav li:hover {
   background-color: silver;
   color: white;
 }
+
 .main-nav li a {
   text-decoration: none;
   padding: 10px 15px;
   display: inline-block;
+}
+
+.newsletter {
+  padding-bottom: 30px;
+  min-height: calc(100vh - 250px);
+}
+
+//footer at bottom 
+main {
+  min-height: calc(100% - 20px);
+}
+
+body,
+html {
+  min-height: 100%;
 }
