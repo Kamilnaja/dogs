@@ -10,10 +10,10 @@ body {
   color: $primary-txt-color;
   margin-bottom: 20px;
 }
-.site-logo:hover .app-title {
+a.site-logo:hover .app-title {
   text-decoration: none;
 }
-.site-logo:hover {
+a.site-logo:hover {
   text-decoration: none;
 }
 .puppy-wrapper {
