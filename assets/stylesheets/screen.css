@@ -1,19 +1,26 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 10, ../sass/screen.scss */
+/* line 4, ../sass/screen.scss */
 body {
   font: 16px lato;
+  margin-top: 20px;
 }
 
-/* line 15, ../sass/screen.scss */
+/* line 9, ../sass/screen.scss */
 .app-title {
-  font: bold 25px Lato;
   color: cornflowerblue;
+  margin-bottom: 20px;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 13, ../sass/screen.scss */
+.site-logo:hover .app-title {
+  text-decoration: none;
+}
+
+/* line 16, ../sass/screen.scss */
+.site-logo:hover {
+  text-decoration: none;
+}
+
+/* line 19, ../sass/screen.scss */
 .puppy-wrapper {
   overflow: hidden;
   padding-top: 20px;
@@ -22,7 +29,7 @@ body {
   border-bottom: 1px solid silver;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 .puppy-portrait {
   height: 100px;
   width: auto;
@@ -34,16 +41,17 @@ body {
   border: 1px solid cornflowerblue;
   padding: 1px;
 }
-/* line 42, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .puppy-portrait:hover {
   transform: rotate(-2deg) scale(1.2);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 .puppy-description {
   float: left;
 }
-/* line 50, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .puppy-description .puppy-name {
   font-size: 20px;
 }
@@ -53,10 +61,55 @@ body {
   background-color: #ffffff;
   border-top: 1px solid cornflowerblue;
   padding-top: 10px;
+  margin-top: 30px;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .main-header {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+/* line 66, ../sass/screen.scss */
+.main-nav {
+  list-style-type: none;
+  font: 700 16px Lato;
+  margin-bottom: 20px;
+  -webkit-padding-start: 0;
+}
+
+/* line 73, ../sass/screen.scss */
+.main-nav li {
+  border: 1px dashed silver;
+  display: inline-block;
+}
+
+/* line 78, ../sass/screen.scss */
+.main-nav li:hover {
+  background-color: silver;
+  color: white;
+}
+
+/* line 83, ../sass/screen.scss */
+.main-nav li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+/* line 89, ../sass/screen.scss */
+.newsletter {
+  padding-bottom: 30px;
+  min-height: calc(100vh - 250px);
+}
+
+/* line 95, ../sass/screen.scss */
+main {
+  min-height: calc(100% - 20px);
+}
+
+/* line 99, ../sass/screen.scss */
+body,
+html {
+  min-height: 100%;
 }
