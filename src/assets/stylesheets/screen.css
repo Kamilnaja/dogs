@@ -11,12 +11,12 @@ body {
 }
 
 /* line 13, ../sass/screen.scss */
-.site-logo:hover .app-title {
+a.site-logo:hover .app-title {
   text-decoration: none;
 }
 
 /* line 16, ../sass/screen.scss */
-.site-logo:hover {
+a.site-logo:hover {
   text-decoration: none;
 }
 

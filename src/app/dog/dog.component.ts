@@ -4,7 +4,6 @@ import { RouterModule, Routes } from '@angular/router';
 @Component({
   selector: 'app-dog',
   templateUrl: './dog.component.html',
-  styleUrls: ['./dog.component.css']
 })
 export class DogComponent implements OnInit {
 

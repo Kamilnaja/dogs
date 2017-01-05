@@ -2,10 +2,13 @@ dodać możliwośc sortowania
   dodać input
 
 dodać tytuł całego programu [x]
-po kliknięciu w pupila przekierowuje do widoku szczegółowego - >route
 dodać regulamin [x]
 zrobić stronę podziękowania [x]
 ---
-stopka ma być zawsze na dole
-logo przekierowuje na główną
-dodać obrazek w logo
+stopka ma być zawsze na dole ok
+logo przekierowuje na główną ok 
+dodać obrazek w logo ok
+
+
+
+po kliknięciu w pupila przekierowuje do widoku szczegółowego - >route
