@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DogComponent } from '../dog/dog.component';
 
 @Component({
   selector: 'app-puppydetails',
@@ -10,5 +11,4 @@ export class PuppydetailsComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

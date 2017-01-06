@@ -2,13 +2,13 @@
   <div class="row">
     <div class="col-md-8 offset-md-2">
       <h2 class="main-header">Lista naszych pupili</h2>
-      <div *ngFor="let dog of dogs" class="puppy-wrapper">
-        <div class="puppy-description">
+      <div *ngFor="let dog of dogs" class="puppy-wrapper" (click)="onSelect(dog)">
+        <div class=" puppy-description ">
           {{ dog.id }}
-          <h2 class="puppy-name">{{ dog.name | uppercase }}</h2> {{ dog.weight}}
+          <h2 class="puppy-name ">{{ dog.name | uppercase }}</h2> {{ dog.weight}}
         </div>
-        <a routerLink={{dog.engName}}>
-          <img src="{{dog.img}}" alt="{{dog.name}}" class="puppy-portrait img-fluid">
+        <a routerLink="../puppyDetails">
+          <img src="{{dog.img}} " alt="{{dog.name}} " class="puppy-portrait img-fluid ">
         </a>
       </div>
     </div>

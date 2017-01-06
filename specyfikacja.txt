@@ -1,6 +1,11 @@
 dynamicznie wyświetlanie psów []
   usunąć szablon .pug ok
   naprawić błedy ok
+  zwraca nam obiekt psa
+  dodać routing dynamiczny -> ma wyświetlać w "puppy-details
+  przekaż dane do puppy details ale najpierw go odpal
+    zrobić routing do niego ok 
+    w puppydetails wyświetla dane selected dog
 
 dodać możliwośc sortowania
 dodać input

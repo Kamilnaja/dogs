@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { DogComponent } from './dog/dog.component';
 import { RulesComponent } from './rules/rules.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
+import { PuppydetailsComponent } from './puppydetails/puppydetails.component';
 
 
 //importować resztę menu
@@ -16,6 +17,7 @@ export const router: Routes = [
   { path: 'dogs', component: DogComponent},
   { path: 'rules', component: RulesComponent },
   { path: 'newsletter', component: NewsletterComponent },
+  { path: 'puppyDetails', component: PuppydetailsComponent}
 ];
 
 export const routes: ModuleWithProviders = RouterModule.forRoot(router);
