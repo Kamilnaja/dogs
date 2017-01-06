@@ -1,14 +1,20 @@
-dodać możliwośc sortowania
-  dodać input
+dynamicznie wyświetlanie psów []
+  usunąć szablon .pug ok
+  naprawić błedy ok
 
+dodać możliwośc sortowania
+dodać input
+dodać dynamiczne menu
+
+
+
+----- zrobione
 dodać tytuł całego programu [x]
+usunąć podkreślenie z a [ok]
 dodać regulamin [x]
 zrobić stronę podziękowania [x]
----
 stopka ma być zawsze na dole ok
 logo przekierowuje na główną ok 
 dodać obrazek w logo ok
-
-
-
 po kliknięciu w pupila przekierowuje do widoku szczegółowego - >route
+zdjęcie na głównej ma cofać na główną [ok]
