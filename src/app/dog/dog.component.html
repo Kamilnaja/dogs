@@ -7,8 +7,8 @@
           {{ dog.id }}
           <h2 class="puppy-name">{{ dog.name | uppercase }}</h2> {{ dog.weight}}
         </div>
-        <a href="">
-          <img src="{{dog.img}}" alt="" class="puppy-portrait img-fluid" (click)="onSelect(dog)">
+        <a routerLink={{dog.engName}}>
+          <img src="{{dog.img}}" alt="{{dog.name}}" class="puppy-portrait img-fluid">
         </a>
       </div>
     </div>

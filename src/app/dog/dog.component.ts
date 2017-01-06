@@ -20,7 +20,7 @@ onSelect = function (dog) {
 
 dogs:any = [
   {
-    id: 0, name: 'Mops', weight: '8.1 kg', height: 'cm', info: 'ugly as hell, fat as pig', img: 'assets/img/pug.jpg'
+    id: 0, name: 'Mops', engName: 'pug', weight: '8.1 kg', height: 'cm', info: 'ugly as hell, fat as pig', img: 'assets/img/pug.jpg'
   },
   {
     id: 1, name: 'Buldog Amerykański', weight: '68kg', img: 'assets/img/buldogam.jpg'

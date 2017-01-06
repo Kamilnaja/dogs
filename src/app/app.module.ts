@@ -14,6 +14,7 @@ import { ThankformsubmitComponent } from './thankformsubmit/thankformsubmit.comp
 import { RulesComponent } from './rules/rules.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { PuppydetailsComponent } from './puppydetails/puppydetails.component';
+import { PugComponent } from './pug/pug.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { PuppydetailsComponent } from './puppydetails/puppydetails.component';
     ThankformsubmitComponent,
     RulesComponent,
     NewsletterComponent,
-    PuppydetailsComponent
+    PuppydetailsComponent,
+    PugComponent
   ],
   imports: [
     BrowserModule,
