@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Dog } from '../dog/dog';
 import { DogComponent } from '../dog/dog.component';
+
 
 @Component({
   selector: 'app-puppydetails',
   templateUrl: './puppydetails.component.html',
 })
-export class PuppydetailsComponent implements OnInit {
+export class PuppydetailsComponent  {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-  
+//element ma wyświetlać dynamiczne zaznaczone psy
 }

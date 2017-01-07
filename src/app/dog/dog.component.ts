@@ -32,6 +32,7 @@ export class DogComponent {
 
 dogs = DOGS;
 selectedDog: Dog;
+dog: Dog;
 
   onSelect(dog): void {
     this.selectedDog = dog;
