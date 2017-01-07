@@ -11,4 +11,5 @@ export class PuppydetailsComponent implements OnInit {
 
   ngOnInit() {
   }
+  
 }

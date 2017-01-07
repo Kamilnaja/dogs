@@ -1,15 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { Dog } from './dog';
 
-export class Dog {
-  id: number;
-  name: string;
-  engName: string;
-  weight: string;
-  height: string;
-  info: string;
-  img: string;
-}
+
 
 const DOGS: Dog[] = [
   {
@@ -44,4 +37,6 @@ selectedDog: Dog;
     this.selectedDog = dog;
     console.log(this.selectedDog);
   }
+  @Input () Dog;
+  @Input('master') masterName:string;
 }

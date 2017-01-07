@@ -10,7 +10,7 @@ dynamicznie wyświetlanie psów []
 dodać możliwośc sortowania
 dodać input
 dodać dynamiczne menu
-
+przenieśc dekorator
 
 
 ----- zrobione
