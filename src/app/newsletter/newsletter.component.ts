@@ -10,5 +10,7 @@ export class NewsletterComponent implements OnInit {
 
   ngOnInit() {
   }
-
+submitForm() {
+    console.log('form Submittted');
+}
 }

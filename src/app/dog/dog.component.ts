@@ -4,7 +4,6 @@ import {Dog} from './dog';
 
 const DOGS: Dog[] = [
   {
-    id: 1,
     name: 'Mops',
     engName: 'pug',
     weight: '8.1 kg',
@@ -13,7 +12,6 @@ const DOGS: Dog[] = [
     img: 'assets/img/pug.jpg'
   },
   {
-    id: 2,
     name: 'Buldog Amerykański',
     engName: 'Buldog',
     weight: '68kg',
@@ -22,25 +20,22 @@ const DOGS: Dog[] = [
     img: 'assets/img/buldogam.jpg'
   },
   {
-    id: 3,
     name: 'Owczarek Niemiecki',
-    engName: 'Wofl',
+    engName: 'Wolf',
     weight: '45kg',
     height: 'cm',
-    info: 'zabójca',
+    info: 'Zabójca, grał Szarika w 4 pancernych',
     img: 'assets/img/owczarekniemiecki.jpg'
   },
   {
-    id: 4,
     name: 'Husky Syberyjski',
     engName: 'Husky',
     weight: '27kg',
     height: 'cm',
-    info: 'najgorszy przyjaciel człowieka',
+    info: 'Najgorszy przyjaciel człowieka',
     img: 'assets/img/siberianhusky.jpg'
   },
   {
-    id: 5,
     name: 'Jamnik krótkowłosy',
     engName: 'jamnik',
     weight: '99kg',
@@ -63,7 +58,6 @@ export class DogComponent {
 
   onSelect(dog: Dog): void {
     this.selectedDog = dog;
-
   }
 }
-// todo po wyświetleniu psa, ma się pojawiać więcej info na jego temat w oknie
+// todo - dodać filtrowanie itemów

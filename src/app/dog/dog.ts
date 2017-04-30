@@ -1,6 +1,5 @@
 // dekorator
 export class Dog {
-  id: number;
   name: string;
   engName: string;
   weight: string;

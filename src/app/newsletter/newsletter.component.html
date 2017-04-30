@@ -4,10 +4,13 @@
       <div class="row">
         <div class="col-md-8 offset-md-2">
           <h2 class="main-header">Zapisz się do naszego newslettera</h2>
-          <form #form="ngForm" (ngSubmit)="submitForm(form.value)">
+          <!-- todo add validation and confirm message -->
+          <form>
+            <!--#form="ngForm" (ngSubmit)="submitForm(form.value)"-->
             <div class="form-group">
               <label for="email">Wpisz email</label>
-              <input type="email" name="email" id="email" placeholder="marta@gmail.com" class="form-control" ngModel required>
+              <input type="email" name="email" id="email" placeholder="marta@gmail.com" class="form-control" ngModel
+                     required>
             </div>
             <div class="form-group">
               <label for="name">Wpisz swoje imie</label>

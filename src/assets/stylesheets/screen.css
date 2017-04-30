@@ -1,26 +1,26 @@
-/* line 4, ../sass/screen.scss */
+/* line 5, ../sass/screen.scss */
 body {
   font: 16px lato;
   margin-top: 20px;
 }
 
-/* line 9, ../sass/screen.scss */
+/* line 10, ../sass/screen.scss */
 .app-title {
   color: cornflowerblue;
   margin-bottom: 20px;
 }
 
-/* line 13, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
 a.site-logo:hover .app-title {
   text-decoration: none;
 }
 
-/* line 16, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 a.site-logo:hover {
   text-decoration: none;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 .puppy-wrapper {
   overflow: hidden;
   padding-top: 20px;
@@ -29,7 +29,7 @@ a.site-logo:hover {
   border-bottom: 1px solid silver;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .puppy-portrait {
   height: 100px;
   width: auto;
@@ -41,22 +41,22 @@ a.site-logo:hover {
   border: 1px solid cornflowerblue;
   padding: 1px;
 }
-/* line 41, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 .puppy-portrait:hover {
   transform: rotate(-2deg) scale(1.2);
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .puppy-description {
   float: left;
 }
-/* line 49, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .puppy-description .puppy-name {
   font-size: 20px;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .main-footer {
   background-color: #ffffff;
   border-top: 1px solid cornflowerblue;
@@ -64,13 +64,13 @@ a.site-logo:hover {
   margin-top: 30px;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .main-header {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-/* line 66, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .main-nav {
   list-style-type: none;
   font: 700 16px Lato;
@@ -78,38 +78,51 @@ a.site-logo:hover {
   -webkit-padding-start: 0;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .main-nav li {
   border: 1px dashed silver;
   display: inline-block;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .main-nav li:hover {
   background-color: silver;
   color: white;
 }
 
-/* line 83, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .main-nav li a {
   text-decoration: none;
   padding: 10px 15px;
   display: inline-block;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .newsletter {
   padding-bottom: 30px;
   min-height: calc(100vh - 250px);
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 main {
   min-height: calc(100% - 20px);
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 body,
 html {
   min-height: 100%;
+}
+
+/* line 108, ../sass/screen.scss */
+p.index {
+  color: white;
+  float: left;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: tan;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 10px;
 }

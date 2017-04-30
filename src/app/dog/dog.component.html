@@ -4,17 +4,18 @@
       <div *ngIf="selectedDog">
         <h2>Szczegóły wybranego psa</h2>
         <p><img src="{{selectedDog.img}}" class="puppy-portrait img-fluid"/></p>
-        <p>Id {{selectedDog.id}}</p>
         <p>Nazwa - {{selectedDog.name}}</p>
+        <p>Nazwa angielska {{selectedDog.engName}}</p>
         <p>Opis:  {{selectedDog.info}}</p>
-
       </div>
 
       <h2 class="main-header">Lista naszych pupili</h2>
-      <div *ngFor="let dog of dogs" class="puppy-wrapper" (click)="onSelect(dog)">
+      <p>W tej chwili w bazie znajduje się  {{dogs.length}} psów</p>
+      <div *ngFor="let dog of dogs; let i = index" class="puppy-wrapper" (click)="onSelect(dog)">
+        <p class="index">{{i + 1}}</p>
         <div class=" puppy-description ">
-          {{ dog.id }}
-          <h2 class="puppy-name ">{{ dog.name | uppercase }}</h2> {{ dog.weight}}
+          <h2 class="puppy-name">
+             {{ dog.name | uppercase }}</h2> {{ dog.weight}}
         </div>
         <a>
           <img src="{{dog.img}} " alt="{{dog.name}} " class="puppy-portrait img-fluid">

@@ -1,6 +1,7 @@
 $primary-bg-color: #ffffff;
 $primary-txt-color: cornflowerblue;
 $secondary-txt-color: black;
+
 body {
   font: 16px lato;
   margin-top: 20px;
@@ -10,12 +11,15 @@ body {
   color: $primary-txt-color;
   margin-bottom: 20px;
 }
+
 a.site-logo:hover .app-title {
   text-decoration: none;
 }
+
 a.site-logo:hover {
   text-decoration: none;
 }
+
 .puppy-wrapper {
   overflow: hidden;
   padding: {
@@ -91,7 +95,7 @@ a.site-logo:hover {
   min-height: calc(100vh - 250px);
 }
 
-//footer at bottom 
+//footer at bottom
 main {
   min-height: calc(100% - 20px);
 }
@@ -99,4 +103,16 @@ main {
 body,
 html {
   min-height: 100%;
+}
+
+p.index {
+  color: white;
+  float: left;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: tan;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 10px;
 }
