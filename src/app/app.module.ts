@@ -12,7 +12,6 @@ import { FooterComponent } from './footer/footer.component';
 import { ThankformsubmitComponent } from './thankformsubmit/thankformsubmit.component';
 import { RulesComponent } from './rules/rules.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
-import { PugComponent } from './pug/pug.component';
 
 
 @NgModule({
@@ -25,7 +24,6 @@ import { PugComponent } from './pug/pug.component';
     ThankformsubmitComponent,
     RulesComponent,
     NewsletterComponent,
-    PugComponent,
   ],
   imports: [
     BrowserModule,

@@ -63,7 +63,7 @@ export class DogComponent {
 
   onSelect(dog: Dog): void {
     this.selectedDog = dog;
-    console.log(this.selectedDog);
+
   }
 }
 // todo po wyświetleniu psa, ma się pojawiać więcej info na jego temat w oknie
