@@ -25,11 +25,10 @@ a.site-logo:hover {
   overflow: hidden;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-top: 1px solid silver;
   border-bottom: 1px solid silver;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 .puppy-portrait {
   height: 100px;
   width: auto;
@@ -41,36 +40,35 @@ a.site-logo:hover {
   border: 1px solid cornflowerblue;
   padding: 1px;
 }
-/* line 45, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 .puppy-portrait:hover {
   transform: rotate(-2deg) scale(1.2);
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 .puppy-description {
   float: left;
 }
-/* line 53, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .puppy-description .puppy-name {
   font-size: 20px;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .main-footer {
   background-color: #ffffff;
-  border-top: 1px solid cornflowerblue;
   padding-top: 10px;
   margin-top: 30px;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .main-header {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 .main-nav {
   list-style-type: none;
   font: 700 16px Lato;
@@ -78,43 +76,43 @@ a.site-logo:hover {
   -webkit-padding-start: 0;
 }
 
-/* line 77, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .main-nav li {
   border: 1px dashed silver;
   display: inline-block;
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .main-nav li:hover {
   background-color: silver;
   color: white;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .main-nav li a {
   text-decoration: none;
   padding: 10px 15px;
   display: inline-block;
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .newsletter {
   padding-bottom: 30px;
   min-height: calc(100vh - 250px);
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 main {
   min-height: calc(100% - 20px);
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 body,
 html {
   min-height: 100%;
 }
 
-/* line 108, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 p.index {
   color: white;
   float: left;

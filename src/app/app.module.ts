@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ThankformsubmitComponent } from './thankformsubmit/thankformsubmit.component';
 import { RulesComponent } from './rules/rules.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
+import { FilterPipe } from './filter.pipe';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
     ThankformsubmitComponent,
     RulesComponent,
     NewsletterComponent,
+    FilterPipe,
   ],
   imports: [
     BrowserModule,

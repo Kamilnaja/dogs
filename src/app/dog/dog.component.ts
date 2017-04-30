@@ -1,7 +1,6 @@
 import {Component} from '@angular/core';
 import {Dog} from './dog';
 
-
 const DOGS: Dog[] = [
   {
     name: 'Mops',
