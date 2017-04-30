@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { DogComponent } from './dog/dog.component';
 
@@ -13,7 +12,6 @@ import { FooterComponent } from './footer/footer.component';
 import { ThankformsubmitComponent } from './thankformsubmit/thankformsubmit.component';
 import { RulesComponent } from './rules/rules.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
-import { PuppydetailsComponent } from './puppydetails/puppydetails.component';
 import { PugComponent } from './pug/pug.component';
 
 
@@ -27,7 +25,6 @@ import { PugComponent } from './pug/pug.component';
     ThankformsubmitComponent,
     RulesComponent,
     NewsletterComponent,
-    PuppydetailsComponent,
     PugComponent,
   ],
   imports: [
@@ -36,10 +33,10 @@ import { PugComponent } from './pug/pug.component';
     HttpModule,
     routes,
     ReactiveFormsModule,
-    
+
   ],
   providers: [MenuComponent],
   bootstrap: [AppComponent, MenuComponent, FooterComponent]
 })
-export class AppModule { 
+export class AppModule {
 }
